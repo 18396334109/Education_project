@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>教室</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-lg-3 col-md-6" id="videoPanel">
+                <div class="panel" id="videoTeacher">
+                    <div class="panel-heading">
+                        <div class="headImg">
+                            <img src="./img/header.jpeg" style="width: 60px;height: 60px; border-radius: 50%;"alt="">                            
+                        </div>
+                        <div class="headContent">
+                                <h3 class="headTitle">唐诗三百首~~</h3>
+                                <h4 class="panel-title">小徐老师</h4>
+                               <!-- <span class=".glyphicon .glyphicon-heart-empty"></span> -->
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <img src="./img/teacher1.jpg" alt="">
+                        <img src="./img/teacher.jpg"alt="">
+                        <div class="videofooter">
+                            <ul>
+                                <li><button type="button" class="btn iconBtn">
+                                    <span class="glyphicon glyphicon-heart-empty"></span>
+                                </button></li>
+                                <li><button type="button" class="btn iconBtn">
+                                    <span class="glyphicon glyphicon-headphones"></span>
+                                </button></li>
+                                <li><button type="button" class="btn iconBtn">
+                                    <span class="glyphicon glyphicon-facetime-video"></span>
+                                </button></li>
+                                <li><button type="button" class="btn iconBtn">
+                                    <span class="glyphicon glyphicon-volume-up"></span>
+                                </button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="col-lg-6 col-md-6" id="coursePanel">
+                <div class="panel">
+                    <div class="panel-heading coursr-heading">
+                        <div class="headImg">
+                            <img src="./img/header.jpeg" style="width: 60px;height: 60px; border-radius: 50%;"alt="">                            
+                        </div>
+                        <div class="headContent">
+                            <h3 class="headTitle">课程教案~~</h3>
+                            <h4 class="panel-title">小徐老师</h4>
+                                   <!-- <span class=".glyphicon .glyphicon-heart-empty"></span> -->
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="courseContent">
+                            <div id="courseSide">
+                                <ul>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-tags"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-zoom-in"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-zoom-out"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-trash"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-star"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-pushpin"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-resize-full"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-thumbs-up"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-sort-by-attributes"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-paperclip"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                        <span class="glyphicon glyphicon-picture"></span>
+                                    </button></li>
+                                    <li><button type="button" class="btn iconBtn">
+                                            <span class="glyphicon glyphicon-picture"></span>
+                                        </button></li>
+                                </ul>
+                            </div>
+                            <div id="courseBody">
+                                <img src="./img/img_prom1.jpg" alt="" class="">
+                            </div>
+                        </div>
+                        <div id="courseFooter">
+                            <ul>
+                                <li><button type="button" class="btn iconBtn" onclick="indexToggle('#lessonPlansPanel')">计划
+                                    <span class="glyphicon glyphicon-chevron-down"></span>
+                                </button></li>
+                                <li><button type="button" class="btn iconBtn">
+                                    <span class="glyphicon glyphicon-folder-open"></span>
+                                </button></li>
+                                <li><button type="button" class="btn iconBtn">
+                                    <span class="glyphicon glyphicon-film"></span>
+                                </button></li>
+                                <li><button type="button" class="btn iconBtn">
+                                    <span class="glyphicon glyphicon-font"></span>
+                                </button></li>
+                                <li><button type="button" class="btn iconBtn">
+                                    <span class="glyphicon glyphicon-fullscreen"></span>
+                                </button></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-12 col-md-12" id="lessonPlansPanel">
+                            <div class="panel" id="lessonPlans">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">今日课程计划</h3>
+                                </div>
+                                <div class="panel-body">
+                                        中国的语言被称为是比较难的语言之一来学习，因为它的许多方言和地区的语法差异。
+                                        普通话或标准的中国是中国台湾和人民的共和国的官方语言。新加坡还认为中国普通话作为其四种官方语言之一。虽然中国普通话的音韵学是主要由北京方言，
+                                        词汇出现从标准的中国方言在中国各地，除了西部地区的多样化和非常大的选择。有声调的语言，普通话中国不同，因为它使用较少的元音，但更多的声母和复合词从汉语南部。
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-lg-3 col-md-12" id="otherPanel">
+                <div class="col-lg-12 col-md-6">
+                   <div class="panel" id="StudentList">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">学生列表<span class="panelCtrl studentCtrl" onclick="indexToggle('#StudentList .panel-body')">
+                                <button class="btn btn-xs iconBtn"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                            </span></h3>
+                       </div>
+                        <div class="panel-body">
+                            <p>徐老师的学生</p>
+                            <p>徐老师的学生</p>
+                            <p>徐老师的学生</p>
+                            <p>徐老师的学生</p>
+                            <p>徐老师的学生</p>
+                            <p>徐老师的学生</p>
+                            <p>徐老师的学生</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-6">
+                    <div class="panel" id="ChatWindows">
+                        <div class="panel-heading">
+                           <h3 class="panel-title">聊天窗口<span class="panelCtrl studentCtrl" onclick="indexToggle('#ChatWindows .panel-body')">
+                                <button class="btn btn-xs iconBtn"><span class="glyphicon glyphicon-chevron-down"></span></h3>
+                        </div>
+                        <div class="panel-body">
+                                    <div class="ChatShow">聊天窗口</div>
+                                    <div class="chatCtrl">
+                                        <input type="text">
+                                        <p class="btn btn-default btn-sm submit">发送(S)</p>
+                                   </div>
+                                </div>
+                            </div>
+                    </div>        
+                </div>
+                </div>
+            </div>
+        </div>      
+    </main>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="./js/index.js"></script>
+</html>

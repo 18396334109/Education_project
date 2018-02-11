@@ -1,0 +1,274 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #eef5f9;
+    color: #000000
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 15px 15px rgba(15, 37, 64, 0.1);
+}
+
+main{
+
+}
+.row{
+    width: 98%;
+    margin: 0px auto;
+}
+
+.panel{
+    width: 100%;
+    margin: 0px auto
+}
+.panel-heading{
+    border-bottom:1px solid rgba(15, 37, 64, 0.1)
+}
+#videoPanel .panel-heading{
+    height: 80px;
+    overflow: hidden;
+}
+.coursr-heading{
+    height: 80px;
+}
+.headImg{
+    width: 15%;
+    text-align: center;
+    float: left;
+}
+.headContent{
+    /* margin: 10px; */
+    padding-left: 10px;
+    width: 85%;
+    float: left;
+}
+.panel-heading h4{
+    font-size: 16px;
+    margin: 5px;
+}
+.panel-heading h3{
+    font-size: 22px;
+    margin: 5px;
+}
+.panelCtrl{
+    float: right;
+    /* color: aliceblue; */
+    font-size: 16px;
+    color: #191b2e;
+}
+.headTitle{
+    margin: 5px;
+    font-size: 22px;
+}
+#videoPanel,#coursePanel,#otherPanel{
+    /* padding: 10px; */
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 40px;
+    /* box-shadow: 0 15px 15px 0 rgba(15, 37, 64, 0.10); */
+}
+/* #videoTeacher:hover,
+#coursePanel:hover,
+#lessonPlans:hover,
+#ChatWindows:hover,
+#StudentList:hover{
+    box-shadow: 0 15px 15px 0 rgba(15, 37, 64, 0.10);
+} */
+
+#lessonPlansPanel .panel-body{
+    padding: 15px;
+    line-height: 28px;
+}
+#lessonPlans .panel-heading{
+    background-color: #ffffff;
+    height: 50px;
+    line-height: 16px;
+    border-top:1px solid rgba(15, 37, 64, 0.1);
+    border-bottom: none;
+}
+#otherPanel .col-md-6{
+    padding: 3px;
+}
+#StudentList{
+    margin: 0 10px 10px 0;
+    /* height: 288px; */
+}
+#ChatWindows{
+    /* height: 518px; */
+    overflow: hidden;
+}
+#ChatWindows .panel-body{
+    padding: 0px;
+}
+.ChatShow{
+  height: 300px; 
+  padding: 15px; 
+}
+.ChatPanel{
+    height: 118px;
+    padding: 0px;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+#ChatText :active{
+    border: #ffffff;
+}
+.chatCtrl{
+    height: 60px;
+    background-color:#f4f4f4;
+    display:flex;/*Flex布局*/
+    display: -webkit-flex; /* Safari */
+    align-items:center;/*指定垂直居中*/
+}
+.chatCtrl input{
+    /* margin-left:5%; */
+    width:75%;
+    height:80%;
+    border-radius: 5px;
+    border:1px solid #ddd;
+    padding : 5px;
+    line-height: 80%;
+}
+.chatCtrl p{
+    width:25%;
+    height:80%;
+    font-size:16px;
+    color:#fff;
+    line-height:40px;
+    text-align:center;
+    background-color:#ddd;
+    border-radius: 10px;
+    float:right;
+    background-color: #424254;
+    /* margin-top:20px;
+    margin-right:20px; */
+}
+.chatCtrl p:hover{
+    background-color: #191b2e  ;
+    color: #ddd;
+}
+.chatCtrl p:active{
+    background-color: #191b2e  ;
+    color: #ddd;
+}
+.submit{
+    margin: 0px auto;
+    border-color: #f4f4f4;
+}
+#videoPanel img{
+    width: 100%;
+    height: 250px;
+}
+#videoStudent{
+    margin-top: 10px;
+    /* margin-left: 10px; */
+}
+#videoTeacher .panel-body{
+    padding: 10px 10px 0 10px;
+}
+#videoStudent .panel-body{
+    padding: 10px 10px 0 10px;
+}
+#videoTeacher{
+    /* margin-left: 10px; */
+}
+.videofooter{
+    width: 100%;
+    height: 50px;
+    /* background-color: #191b2e  ; */
+}
+.videofooter ul{
+    width: 40%;
+    height: 50px;
+    list-style: none;
+    padding-left:0px;
+    float: right;
+    line-height:50px
+}
+.videofooter li{
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+#videofooter button{
+    border-color: #f4f4f4;
+}
+.courseContent{
+    margin-top: 5px;
+    width: 100%;
+}
+
+#lessonPlans{
+    /* min-height: 652px; */
+    height: auto;
+}
+
+#coursePanel .panel-body{
+    padding: 0px;
+}
+#coursePanel button{
+    border-color: #f4f4f4;
+}
+#courseSide{
+    vertical-align: middle;
+    width: 10%;
+    float: left;
+    height: 500px;
+    /* background-color: #f4f4f4; */
+}
+#courseBody{
+    /* background-color: #f4f4f4; */
+    width: 90%;
+    float: left;
+    height: 500px;
+}
+#courseBody img{
+    width: 100%;
+    height: 500px;
+}
+
+#courseFooter{
+    overflow: hidden;
+    /* border-top: 10px #f4f4f4; */
+    /* border:  */
+    width: 100%;
+    margin-bottom: 0px;
+    height: 70px;
+    /* background-color: #191b2e  ; */
+}
+
+#courseSide ul{
+    width: 100%;
+    list-style: none;
+    padding-left:0px;
+    margin-bottom: 0px;
+}
+#courseSide li{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#courseFooter ul{
+    width: 40%;
+    height: 50px;
+    list-style: none;
+    padding-left:0px;
+    float: right;
+    line-height:50px
+}
+#courseFooter li{
+    text-align: center;
+    float: left;
+    width: 20%;
+}
+.iconBtn{
+    border: #ffffff;
+    background-color: #ffffff;
+    /* color: #ffffff; */
+}
+.iconBtn:active{
+    border: #ffffff;
+}
